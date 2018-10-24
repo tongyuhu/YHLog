@@ -7,12 +7,13 @@
 //
 
 #import "YHAppDelegate.h"
-
+#import <YHLog/YHLogManager.h>
 @implementation YHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [YHLogManager showLine];
     return YES;
 }
 

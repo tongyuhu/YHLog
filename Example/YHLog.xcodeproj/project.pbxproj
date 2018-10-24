@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28155DC9A0BF9EB99AFDA65E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		28155DC9A0BF9EB99AFDA65E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		399048B0C96A519DF67D06C6 /* Pods_YHLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YHLog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHLog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		8A83C917AEB4B5F1807E1ADC /* Pods-YHLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHLog_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHLog_Example/Pods-YHLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8AEA93C6C59326F9EE5A466D /* Pods-YHLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHLog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHLog_Example/Pods-YHLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AF2C9D26869B46A7A1A6B467 /* Pods-YHLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHLog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHLog_Tests/Pods-YHLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C5AA6CB838BAFF1FFE695FC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D5D4382A1571DE8D7A7A6969 /* YHLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YHLog.podspec; path = ../YHLog.podspec; sourceTree = "<group>"; };
+		C5AA6CB838BAFF1FFE695FC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D5D4382A1571DE8D7A7A6969 /* YHLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHLog.podspec; path = ../YHLog.podspec; sourceTree = "<group>"; };
 		E05658DFD8A268852F10CCA0 /* Pods_YHLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE64400FCAA7CCCF8C85B0D8 /* Pods-YHLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHLog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHLog_Tests/Pods-YHLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -514,6 +514,7 @@
 				GCC_PREFIX_HEADER = "YHLog/YHLog-Prefix.pch";
 				INFOPLIST_FILE = "YHLog/YHLog-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -529,6 +530,7 @@
 				GCC_PREFIX_HEADER = "YHLog/YHLog-Prefix.pch";
 				INFOPLIST_FILE = "YHLog/YHLog-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

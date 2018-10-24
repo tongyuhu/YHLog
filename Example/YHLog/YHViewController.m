@@ -7,7 +7,7 @@
 //
 
 #import "YHViewController.h"
-
+#import <YHLog/YHLogManager.h>
 @interface YHViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [YHLogManager showLine];
+    
 }
 
 - (void)didReceiveMemoryWarning
